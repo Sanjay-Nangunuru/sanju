@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="portfolio">
+            <p class="port">Portfo<span style="color:blueviolet">lio.</span></p>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills">
+        <h2 class="skill-h">Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar" style="width: 60%;"></div>
+            <span>60%</span>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar" style="width: 50%;"></div>
+            <span>50%</span>
+        </div>
+        <div class="skill">
+            <p>Java</p>
+            <div class="progress-bar" style="width: 50%;"></div>
+            <span>50%</span>
+        </div>
+        <div class="skill">
+            <p>Python</p>
+            <div class="progress-bar" style="width: 55%;"></div>
+            <span>55%</span>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress-bar" style="width: 50%;"></div>
+            <span>50%</span>
+        </div>
+        <div class="skill">
+            <p>C</p>
+            <div class="progress-bar" style="width: 50%;"></div>
+            <span>50%</span>
+        </div>
+    </div>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+BE+VLG+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+        body{
+            background-color: yellowgreen;
+        }
+        .skill-h{
+            font-family: "Montserrat", serif;
+            font-size:2em;
+        }
+        
+        .navbar {
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            background-image: url("bgimage.jpg");
+            background-size: cover;
+        }
+        
+        .portfolio {
+            padding: 13px 13px 13px 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 2.5em;
+            color: white;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            font-family: "Fira Sans", serif;
+            font-weight: 400;
+            font-size: 1.2em;
+            padding: 10px;
+            padding-right: 30px;
+        }
+
+        .links a {
+            padding: 13px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .links :hover {
+            color: #e10032;
+            transform: scale(1.1);
+        }
+
+        .skills {
+            padding: 40px;
+            background-color:bisque;
+        }
+
+        .skills h2 {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .skill {
+            margin: 20px 0;
+        }
+
+        .skill p {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            height: 20px;
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+
+        .progress-bar {
+            background-color: #4caf50;
+            border-radius: 10px;
+        }
+
+        .skill span {
+            font-size: 1.1em;
+            margin-left: 10px;
+        }
+    </style>
+
+</body>
+</html>
